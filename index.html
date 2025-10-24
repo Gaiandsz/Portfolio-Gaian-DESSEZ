@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dessez Gaïan – Portfolio</title>
+  <meta name="description" content="Portfolio de Dessez Gaïan – Étudiant ingénieur en Mécanique & Énergétique à Polytech Marseille.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Révélations au scroll (léger) */
+    .reveal { opacity: 0; transform: translateY(10px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+  </style>
+</head>
+<body class="antialiased text-zinc-900 bg-gradient-to-b from-white via-zinc-50 to-white">
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/80 border-b border-zinc-200">
+    <nav class="max-w-6xl mx-auto px-6 flex items-center justify-between py-3">
+      <a href="#presentation" class="font-semibold tracking-tight hover:opacity-80 transition">Dessez Gaïan</a>
+      <ul class="hidden md:flex gap-6 text-sm">
+        <li><a href="#presentation" class="hover:underline">Présentation</a></li>
+        <li><a href="#competences" class="hover:underline">Compétences</a></li>
+        <li><a href="#parcours" class="hover:underline">Formation</a></li>
+        <li><a href="#experiences" class="hover:underline">Expériences</a></li>
+        <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Présentation -->
+  <section id="presentation" class="max-w-6xl mx-auto px-6 pt-12 md:pt-20 pb-10">
+    <div class="grid md:grid-cols-[1fr,320px] gap-8 items-center">
+      <div class="reveal">
+        <span class="inline-flex items-center gap-2 text-xs px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-100">Mécanique • Énergétique • Fluide</span>
+        <h1 class="text-3xl md:text-5xl font-bold tracking-tight mt-3">Étudiant ingénieur – Mécanique & Énergétique</h1>
+        <p class="mt-2 text-zinc-700">Polytech Marseille (Aix‑Marseille Université)</p>
+        <p class="mt-4 text-zinc-600 max-w-prose">
+          Étudiant ingénieur intéressé par l’énergétique, la mécanique des fluides et la simulation numérique.
+          Engagé pour le développement durable (Président de l’association PolyGreen).
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3 text-sm">
+          <a href="mailto:dessez.mail.pro@gmail.com" class="border border-zinc-300 px-3 py-2 rounded-xl hover:bg-zinc-50 transition">Email</a>
+          <a href="https://www.linkedin.com/in/dessez-gaian-ingenierie/" target="_blank" class="border border-zinc-300 px-3 py-2 rounded-xl hover:bg-zinc-50 transition">LinkedIn</a>
+        </div>
+      </div>
+      <div class="rounded-2xl shadow-lg p-3 bg-white/70 backdrop-blur border border-zinc-200 md:justify-self-end reveal">
+        <div class="rounded-2xl overflow-hidden">
+          <img src="photo.jpg" alt="Photo de profil" class="w-full aspect-square object-cover" />
+        </div>
+        <div class="mt-4 text-center">
+          <p class="font-medium">Dessez Gaïan</p>
+          <p class="text-sm text-zinc-600">Marseille, France</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="competences" class="bg-gradient-to-b from-white to-zinc-50 py-14 border-t border-zinc-200">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold reveal">Compétences</h2>
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+          <h3 class="font-medium">Énergétique & Thermique</h3>
+          <p class="mt-2 text-sm text-zinc-700">Transferts de chaleur et de masse, combustion, bilans énergétiques, énergies renouvelables et fossiles.</p>
+        </article>
+        <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+          <h3 class="font-medium">Mécanique des fluides</h3>
+          <p class="mt-2 text-sm text-zinc-700">Écoulements, pertes de charge, turbomachines – approche expérimentale et modélisation.</p>
+        </article>
+        <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+          <h3 class="font-medium">Modélisation & Simulation</h3>
+          <p class="mt-2 text-sm text-zinc-700">Méthodes numériques, simulation, post‑traitement et analyse; bases en MATLAB/Python.</p>
+        </article>
+        <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+          <h3 class="font-medium">Conception & CAO</h3>
+          <p class="mt-2 text-sm text-zinc-700">Conception mécanique, SolidWorks; lecture de plans, tolérances et cotations.</p>
+        </article>
+        <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+          <h3 class="font-medium">Développement & Outils</h3>
+          <p class="mt-2 text-sm text-zinc-700">Python, MATLAB, C/Java (bases), Git, Linux, Microsoft 365.</p>
+        </article>
+        <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+          <h3 class="font-medium">Soft skills</h3>
+          <p class="mt-2 text-sm text-zinc-700">Communication, esprit analytique, autonomie, travail en équipe.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formation -->
+  <section id="parcours" class="max-w-6xl mx-auto px-6 py-14">
+    <h2 class="text-2xl font-semibold reveal">Formation</h2>
+    <ol class="mt-8 relative border-s border-zinc-200">
+      <li class="ms-6 mb-8 reveal">
+        <span class="absolute -start-1.5 mt-1.5 w-3 h-3 rounded-full bg-zinc-400 border border-white"></span>
+        <div class="flex items-start gap-4">
+          <img src="polytech.png" alt="Polytech Marseille" class="h-10 w-10 rounded-lg border border-zinc-200 shadow-sm" />
+          <div>
+            <p class="text-sm text-zinc-500">2023 – 2027</p>
+            <p class="font-medium">Cycle ingénieur – Mécanique & Énergétique — Polytech Marseille (AMU)</p>
+            <p class="text-sm text-zinc-700 mt-1">Énergétique, transferts thermiques, mécanique des fluides, modélisation et simulation. Engagement : REPOS DDRS du BDE, Président de PolyGreen.</p>
+          </div>
+        </div>
+      </li>
+      <li class="ms-6 mb-8 reveal">
+        <span class="absolute -start-1.5 mt-1.5 w-3 h-3 rounded-full bg-zinc-400 border border-white"></span>
+        <div class="flex items-start gap-4">
+          <img src="lyce_jules_ferry_cannes_logo.jpg" alt="Lycée Jules Ferry (Cannes)" class="h-10 w-10 rounded-lg border border-zinc-200 shadow-sm" />
+          <div>
+            <p class="text-sm text-zinc-500">2021 – 2023</p>
+            <p class="font-medium">Classes préparatoires TSI — Lycée Jules Ferry (Cannes)</p>
+            <p class="text-sm text-zinc-700 mt-1">Sciences industrielles de l’ingénieur, mathématiques, physique‑chimie. Mention Assez Bien.</p>
+          </div>
+        </div>
+      </li>
+      <li class="ms-6 mb-8 reveal">
+        <span class="absolute -start-1.5 mt-1.5 w-3 h-3 rounded-full bg-zinc-400 border border-white"></span>
+        <div class="flex items-start gap-4">
+          <img src="lyce_lonard_de_vinci_antibes_logo.jpg" alt="Lycée Léonard de Vinci (Antibes)" class="h-10 w-10 rounded-lg border border-zinc-200 shadow-sm" />
+          <div>
+            <p class="text-sm text-zinc-500">2018 – 2021</p>
+            <p class="font-medium">Bac STI2D — Lycée Léonard de Vinci (Antibes), Option Architecture & Construction</p>
+            <p class="text-sm text-zinc-700 mt-1">Mention Très Bien. Innovation technologique, éco‑conception, SIN, énergies & environnement.</p>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Expériences professionnelles -->
+  <section id="experiences" class="max-w-6xl mx-auto px-6 pb-4">
+    <h2 class="text-2xl font-semibold reveal">Expériences professionnelles</h2>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <!-- CMT Groupe -->
+      <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+        <div class="flex items-start gap-4">
+          <img src="cmt_groupe_logo.jpg" alt="CMT Groupe" class="h-12 w-12 rounded-lg border border-zinc-200 shadow-sm" />
+          <div>
+            <h3 class="font-medium">Assistant chargé d’affaires CVC — CMT Groupe</h3>
+            <p class="text-sm text-zinc-500">Sept. 2023 – Fév. 2024 • Alternance • Aix‑en‑Provence</p>
+            <ul class="mt-2 text-sm text-zinc-700 list-disc ps-5 space-y-1">
+              <li>Contribution à un <strong>marché à bons de commande</strong>.</li>
+              <li>Suivi planning, coordination des intervenants, contrôle documentaire.</li>
+              <li>Adaptabilité, communication équipe‑chantier (sur site).</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      <!-- McDonald's -->
+      <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+        <div class="flex items-start gap-4">
+          <img src="mcdonalds_corporation_logo.jpg" alt="McDonald's" class="h-12 w-12 rounded-lg border border-zinc-200 shadow-sm" />
+          <div>
+            <h3 class="font-medium">Employé Polyvalent — McDonald’s</h3>
+            <p class="text-sm text-zinc-500">Juin 2023 – Août 2023 • CDI • Antibes</p>
+            <ul class="mt-2 text-sm text-zinc-700 list-disc ps-5 space-y-1">
+              <li>Service client, gestion des commandes, polyvalence en équipe.</li>
+              <li>Rigueur HSE et respect des standards qualité.</li>
+              <li>Travail en rythme soutenu et communication efficace.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="max-w-6xl mx-auto px-6 py-14">
+    <h2 class="text-2xl font-semibold reveal">Portfolio</h2>
+    <p class="text-sm text-zinc-600 mt-2 reveal">Ajoute ici tes projets (titre, résumé, outils, année, lien).</p>
+    <div class="mt-6 grid sm:grid-cols-2 gap-6">
+      <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+        <div class="h-44 bg-zinc-200 rounded-xl grid place-items-center">Image projet</div>
+        <h3 class="mt-4 text-lg font-medium">Nom du projet</h3>
+        <p class="mt-1 text-sm text-zinc-700">Court résumé du projet…</p>
+        <p class="mt-2 text-xs text-zinc-500">Outils • Année</p>
+      </article>
+      <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
+        <div class="h-44 bg-zinc-200 rounded-xl grid place-items-center">Image projet</div>
+        <h3 class="mt-4 text-lg font-medium">Nom du projet</h3>
+        <p class="mt-1 text-sm text-zinc-700">Court résumé du projet…</p>
+        <p class="mt-2 text-xs text-zinc-500">Outils • Année</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-zinc-50 py-14 border-y border-zinc-200">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold reveal">Contact</h2>
+      <div class="mt-6 rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 reveal">
+        <p class="text-zinc-700">E‑mail : <a class="underline" href="mailto:dessez.mail.pro@gmail.com">dessez.mail.pro@gmail.com</a></p>
+        <p class="text-zinc-700 mt-1">Téléphone : 06.67.28.72.49</p>
+        <p class="text-zinc-700 mt-1">Marseille, France</p>
+        <div class="mt-3 text-sm">
+          <a href="https://www.linkedin.com/in/dessez-gaian-ingenierie/" target="_blank" class="underline">LinkedIn</a>
+        </div>
+      </div>
+      <footer class="text-xs text-zinc-500 mt-8 flex items-center gap-2">
+        © <span id="year"></span> Dessez Gaïan — Polytech Marseille
+        <img src="polytech.png" alt="Polytech Marseille" class="h-5 w-auto" />
+      </footer>
+    </div>
+  </section>
+
+  <script>
+    // Année courante
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Observer pour effets "reveal"
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
