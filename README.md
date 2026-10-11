@@ -11,7 +11,7 @@ Site en ligne : https://gaiandsz.github.io/Portfolio-Gaian-DESSEZ/
 - `index.html` → page principale du portfolio
 - `cv_gaian.pdf` → CV à jour (stage de 4e année, janvier – août 2027)
 - `favicon.png` → icône d'onglet
-- `assets/` → photo et logos utilisés par le site
+- images (`photo.jpg`, logos) → à la racine du dépôt
 
 ---
 
