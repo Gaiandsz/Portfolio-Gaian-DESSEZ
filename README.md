@@ -1,2 +1,37 @@
-# Portfolio-Gaian-DESSEZ
-Etudiant ingénieur en mécanique énergétique à Polytech Marseille, passionné par la conception et l’optimisation de systèmes thermiques et durables. Curieux et rigoureux, je souhaite contribuer à la transition énergétique par l’innovation et la performance technique.
+# 🌐 Portfolio de Gaïan Dessez
+
+Portfolio personnel de **Gaïan Dessez**, étudiant ingénieur en Mécanique & Énergétique à Polytech Marseille, en recherche d'un stage de 4e année en ingénierie d'affaires (janvier – août 2027).
+
+Site en ligne : https://gaiandsz.github.io/Portfolio-Gaian-DESSEZ/
+
+---
+
+## 📁 Contenu
+
+- `index.html` → page principale du portfolio
+- `cv_gaian.pdf` → CV à jour (stage de 4e année, janvier – août 2027)
+- `favicon.png` → icône d'onglet
+- `assets/` → photo et logos utilisés par le site
+
+---
+
+## 🧑‍💻 Technologies
+
+- HTML5 + TailwindCSS (version 3.4.17 chargée via CDN)
+- JavaScript léger pour l'apparition des sections au défilement
+- Hébergement sur GitHub Pages (ou Netlify)
+
+---
+
+## 📄 Sections du site
+
+Présentation, Compétences, Formation, Expériences, Projets, Contact.
+
+---
+
+## 🖋️ Auteur
+
+**Gaïan Dessez**
+Étudiant ingénieur à Polytech Marseille
+📧 dessez.mail.pro@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/dessez-gaian-ingenierie/)
