@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Dessez Gaïan – Portfolio</title>
+<title>Gaïan Dessez – Portfolio</title>
 <meta content="Portfolio de Gaïan Dessez – étudiant ingénieur en Mécanique & Énergétique à Polytech Marseille, en recherche d'un stage de 4e année en ingénierie d'affaires (janvier–août 2027)." name="description"/>
 <meta property="og:title" content="Gaïan Dessez – Portfolio"/>
 <meta property="og:description" content="Étudiant ingénieur Mécanique & Énergétique (Polytech Marseille). Stage de 4e année en ingénierie d'affaires, janvier–août 2027."/>
 <meta property="og:type" content="website"/>
-<meta property="og:image" content="photo.jpg"/>
+<meta property="og:image" content="https://gaiandsz.github.io/Portfolio-Gaian-DESSEZ/photo.jpg"/>
 <link rel="icon" type="image/png" href="favicon.png"/>
 <script src="https://cdn.tailwindcss.com/3.4.17"></script>
 <style>
@@ -24,7 +24,7 @@
 <!-- Navbar -->
 <header class="sticky top-0 z-50 backdrop-blur bg-white/80 border-b border-zinc-200">
 <nav class="max-w-6xl mx-auto px-6 flex items-center justify-between py-3">
-<a class="font-semibold tracking-tight hover:opacity-80 transition" href="#presentation">Dessez Gaïan</a>
+<a class="font-semibold tracking-tight hover:opacity-80 transition" href="#presentation">Gaïan Dessez</a>
 <ul class="hidden md:flex gap-6 text-sm">
 <li><a class="hover:underline" href="#presentation">Présentation</a></li>
 <li><a class="hover:underline" href="#competences">Compétences</a></li>
@@ -46,7 +46,7 @@
 <p class="mt-2 text-zinc-700">Polytech Marseille (Aix‑Marseille Université) – 4<sup>e</sup> année</p>
 <p class="mt-4 text-zinc-600 max-w-prose">
           Je me forme à la thermique, à l’énergétique et à la simulation numérique, avec l’objectif d’évoluer vers l’ingénierie d’affaires.
-          J’ai modélisé la rénovation énergétique d’un complexe sportif à Naples et suivi des dossiers CVC chez CMT Groupe.
+          À Naples, j’ai modélisé la thermique d’un complexe sportif et évalué son passage aux pompes à chaleur R290 et au photovoltaïque. J’ai aussi suivi des dossiers CVC chez CMT Groupe.
           Président de l’association PolyGreen.
         </p>
 <p class="mt-3 text-sm font-medium text-zinc-800">Recherche un stage de 4<sup>e</sup> année, de janvier à août 2027 (durée adaptable), en vue d’une alternance en 5<sup>e</sup> année.</p>
@@ -61,7 +61,7 @@
 <img alt="Portrait de Gaïan Dessez" class="w-full aspect-square object-cover" src="photo.jpg"/>
 </div>
 <div class="mt-4 text-center">
-<p class="font-medium">Dessez Gaïan</p>
+<p class="font-medium">Gaïan Dessez</p>
 <p class="text-sm text-zinc-600">Marseille, France</p>
 </div>
 </div>
@@ -75,7 +75,7 @@
 <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
 <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
 <h3 class="font-medium">Énergétique du bâtiment</h3>
-<p class="mt-2 text-sm text-zinc-700">Modélisation thermique dynamique (SketchUp, TRNSYS3D, TRNBuild), calibration selon ASHRAE Guideline 14, étude de scénarios de rénovation : pompes à chaleur R290, photovoltaïque, stockage, recharge de véhicules électriques.</p>
+<p class="mt-2 text-sm text-zinc-700">Modélisation thermique dynamique multizone (SketchUp, TRNSYS3D, TRNBuild), couplage à une pompe à chaleur R290 et un ballon tampon sous TRNSYS, bilans d’énergie primaire et d’émissions de CO₂. Méthode de calibration ASHRAE Guideline 14 (NMBE, CV(RMSE)).</p>
 </article>
 <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
 <h3 class="font-medium">Thermique &amp; mécanique des fluides</h3>
@@ -148,14 +148,14 @@
 
 <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
 <div class="flex items-start gap-4">
-<div class="h-12 w-12 shrink-0 rounded-lg border border-zinc-200 shadow-sm bg-blue-50 text-blue-700 grid place-items-center text-sm font-semibold" aria-hidden="true">FII</div>
+<img alt="Université Federico II de Naples" class="h-12 w-12 rounded-lg border border-zinc-200 shadow-sm bg-white object-contain p-0.5" src="federico_ii_logo.jpg"/>
 <div>
 <h3 class="font-medium">Ingénieur stagiaire – Optimisation énergétique — Université Federico II</h3>
 <p class="text-sm text-zinc-500">Juin – Août 2026 • Stage • Naples (Italie)</p>
 <ul class="mt-2 text-sm text-zinc-700 list-disc ps-5 space-y-1">
-<li>Modèle thermique dynamique d’un complexe sportif (SketchUp, TRNSYS3D, TRNBuild), calibré sur les consommations mesurées.</li>
-<li>Étude de rénovation : pompes à chaleur R290, photovoltaïque, stockage par batteries, recharge de véhicules électriques.</li>
-<li>Rapport technique rédigé en LaTeX, encadré par l’équipe de recherche.</li>
+<li>Modèle thermique multizone (5 zones) d’un complexe sportif sous SketchUp, TRNSYS3D et TRNBuild, à partir de relevés sur site et de la facturation gaz 2023.</li>
+<li>Évaluation du remplacement de 3 chaudières gaz (1 800 kW) par des pompes à chaleur R290, d’un champ PV de 140 kWp et de bornes de recharge VE.</li>
+<li>Étude menée en binôme, dans le prolongement d’un mémoire de master, sous l’encadrement du Prof. Calise.</li>
 </ul>
 </div>
 </div>
@@ -178,7 +178,7 @@
 
 <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
 <div class="flex items-start gap-4">
-<div class="h-12 w-12 shrink-0 rounded-lg border border-zinc-200 shadow-sm bg-zinc-100 text-zinc-700 grid place-items-center text-sm font-semibold" aria-hidden="true">AB</div>
+<img alt="Antibesland" class="h-12 w-12 rounded-lg border border-zinc-200 shadow-sm bg-white object-contain" src="antibesland_logo.jpg"/>
 <div>
 <h3 class="font-medium">Manager d’équipe — Antibesland</h3>
 <p class="text-sm text-zinc-500">5 saisons entre 2020 et 2025 • Emploi saisonnier • Antibes</p>
@@ -212,18 +212,30 @@
 <section class="max-w-6xl mx-auto px-6 py-14" id="portfolio">
 <h2 class="text-2xl font-semibold reveal">Projets</h2>
 <p class="text-sm text-zinc-600 mt-2 reveal">Projets techniques réalisés à Polytech Marseille et pendant mon stage à Naples.</p>
-<div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="mt-6 grid sm:grid-cols-2 gap-6">
 
-<article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
-<div class="h-44 bg-gradient-to-br from-blue-50 to-zinc-100 rounded-xl grid place-items-center p-4 text-center">
+<article class="sm:col-span-2 rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 reveal">
+<div class="grid lg:grid-cols-2 gap-6">
 <div>
-<p class="font-semibold text-blue-700">Jumeau numérique énergétique</p>
-<p class="text-xs text-zinc-600 mt-1">SketchUp • TRNSYS3D • TRNBuild</p>
+<p class="text-xs text-blue-700">Stage • Université Federico II, Naples • Juin – Août 2026</p>
+<h3 class="mt-1 text-lg font-medium">Rénovation énergétique du complexe sportif CUS Napoli</h3>
+<p class="mt-2 text-sm text-zinc-700">Étude de faisabilité prolongeant un mémoire de master, menée en binôme. Modèle thermique multizone du site (5 zones, relevés sur site), analyse des consommations de gaz 2023, puis évaluation d’un remplacement des trois chaudières gaz (1 800 kW) par des pompes à chaleur air‑eau R290 avec ballon tampon, d’un champ photovoltaïque de 140 kWp et de deux bornes de recharge VE de 22 kW.</p>
+<dl class="mt-4 grid grid-cols-3 gap-3 text-center">
+<div class="rounded-xl border border-zinc-200 bg-white p-3"><dt class="text-xs text-zinc-500">Besoin thermique du site</dt><dd class="text-lg font-semibold text-blue-700">1 071 MWh/an</dd></div>
+<div class="rounded-xl border border-zinc-200 bg-white p-3"><dt class="text-xs text-zinc-500">Énergie primaire avec PAC*</dt><dd class="text-lg font-semibold text-blue-700">−58 %</dd></div>
+<div class="rounded-xl border border-zinc-200 bg-white p-3"><dt class="text-xs text-zinc-500">CO₂ avec PAC*</dt><dd class="text-lg font-semibold text-blue-700">−191 t/an</dd></div>
+</dl>
+<p class="mt-3 text-xs text-zinc-500">* Estimation analytique préliminaire (SCOP 3,5). Le PV de 140 kWp produirait ≈ 203 MWh/an, soit ≈ 42 % du besoin électrique estimé du site. La calibration ASHRAE 14 et l’analyse de rentabilité n’étaient pas finalisées en fin de stage.</p>
+<p class="mt-2 text-xs text-zinc-500">TRNSYS • TRNBuild • SketchUp • 2026</p>
+</div>
+<div>
+<figure><img alt="Modèle 3D du CUS Napoli sous SketchUp" class="w-full rounded-xl border border-zinc-200" loading="lazy" src="cus_modele3d.jpg"/><figcaption class="mt-1 text-xs text-zinc-500">Modèle 3D multizone sous SketchUp (fond : Google Maps).</figcaption></figure>
+<div class="mt-3 grid grid-cols-2 gap-3">
+<figure><img alt="Schéma de couplage TRNSYS bâtiment, PAC et ballon tampon" class="w-full rounded-xl border border-zinc-200 bg-white" loading="lazy" src="cus_schema_trnsys.jpg"/><figcaption class="mt-1 text-xs text-zinc-500">Couplage TRNSYS bâtiment / PAC / ballon.</figcaption></figure>
+<figure><img alt="Courbe du besoin thermique annuel cumulé du site" class="w-full rounded-xl border border-zinc-200 bg-white" loading="lazy" src="cus_besoin_thermique.jpg"/><figcaption class="mt-1 text-xs text-zinc-500">Besoin thermique annuel cumulé.</figcaption></figure>
 </div>
 </div>
-<h3 class="mt-4 text-lg font-medium">Rénovation énergétique du complexe sportif CUS Napoli</h3>
-<p class="mt-1 text-sm text-zinc-700">Modèle thermique dynamique du site, avec caractérisation de la chaufferie (3 chaudières gaz) et calibration selon ASHRAE Guideline 14‑2014 (NMBE, CV(RMSE)). Scénarios étudiés : pompes à chaleur au propane R290, champ photovoltaïque de 140 kWp, stockage Li‑ion, recharge de véhicules électriques, analyse thermo‑économique et environnementale.</p>
-<p class="mt-2 text-xs text-zinc-500">TRNSYS • LaTeX • 2026</p>
+</div>
 </article>
 
 <article class="rounded-2xl shadow-lg p-6 bg-white/70 backdrop-blur border border-zinc-200 hover:-translate-y-0.5 transition reveal">
@@ -267,7 +279,7 @@
 </div>
 </div>
 <footer class="text-xs text-zinc-500 mt-8 flex items-center gap-2">
-        © <span id="year"></span> Dessez Gaïan — Polytech Marseille
+        © <span id="year"></span> Gaïan Dessez — Polytech Marseille
 <img alt="Polytech Marseille" class="h-5 w-auto" src="polytech.png"/>
 </footer>
 </div>
